@@ -4,7 +4,7 @@ from rest_framework.response import Response
 
 from .serializers import RegistrationSerializer, LoginSerializer, UserListSerializer
 
-USER_MODEL  = get_user_model()
+USER_MODEL = get_user_model()
 
 
 class RegistrationView(generics.CreateAPIView):
