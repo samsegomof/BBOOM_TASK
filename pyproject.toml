@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bboom-task"
+version = "0.1.0"
+description = ""
+authors = ["samsegomof <wemagonof91@gmail.com>"]
+readme = "README.md"
+packages = [{include = "bboom_task"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+poetry = "^1.5.1"
+django = "4.0.5"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
